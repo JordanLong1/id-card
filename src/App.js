@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-
+import License from './Components/License'
 function App() {
+
+  // const image = public/my-pic.jpeg
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <License image={'./my-pic.jpeg'} name='Jordan Long' state='California' address='3073 Santa Paula Drive' age='25'/>
     </div>
   );
 }
